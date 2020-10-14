@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { List, ListItem, Heading } from '@chakra-ui/core';
+import Version from "../components/version"
 
 export async function getStaticProps() {
   const prisma = new PrismaClient();
@@ -47,5 +48,6 @@ export default ({ outdated, stable, soon }) => (
         <ListItem key={i}>{elem.name}</ListItem>
       ))}
     </List>
+    <Version />
   </>
 );

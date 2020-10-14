@@ -1,7 +1,30 @@
 {
     "path": "pages",
     "name": "pages",
-    "children": [],
-    "size": 0,
+    "children": [
+        {
+            "path": "pages/docs",
+            "name": "docs",
+            "children": [
+                {
+                    "path": "pages/docs/example.mdx",
+                    "name": "example.mdx",
+                    "meta": {},
+                    "title": "it's an example",
+                    "url": "/docs/example"
+                },
+                {
+                    "path": "pages/docs/index.mdx",
+                    "name": "index.mdx",
+                    "meta": {},
+                    "title": "Getting started",
+                    "url": "/docs/"
+                }
+            ],
+            "size": null,
+            "type": "directory"
+        }
+    ],
+    "size": null,
     "type": "directory"
 }
