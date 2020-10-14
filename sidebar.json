@@ -19,6 +19,182 @@
                     "meta": {},
                     "title": "Getting started",
                     "url": "/docs/"
+                },
+                {
+                    "path": "pages/docs/v1.0",
+                    "name": "v1.0",
+                    "children": [
+                        {
+                            "path": "pages/docs/v1.0/example.mdx",
+                            "name": "example.mdx",
+                            "meta": {},
+                            "title": "it's an example",
+                            "url": "/docs/v1.0/example"
+                        },
+                        {
+                            "path": "pages/docs/v1.0/index.mdx",
+                            "name": "index.mdx",
+                            "meta": {},
+                            "title": "Getting started",
+                            "url": "/docs/v1.0/"
+                        }
+                    ],
+                    "size": null,
+                    "type": "directory"
+                },
+                {
+                    "path": "pages/docs/v1.1",
+                    "name": "v1.1",
+                    "children": [
+                        {
+                            "path": "pages/docs/v1.1/example.mdx",
+                            "name": "example.mdx",
+                            "meta": {},
+                            "title": "it's an example",
+                            "url": "/docs/v1.1/example"
+                        },
+                        {
+                            "path": "pages/docs/v1.1/index.mdx",
+                            "name": "index.mdx",
+                            "meta": {},
+                            "title": "Getting started",
+                            "url": "/docs/v1.1/"
+                        }
+                    ],
+                    "size": null,
+                    "type": "directory"
+                },
+                {
+                    "path": "pages/docs/v1.2",
+                    "name": "v1.2",
+                    "children": [
+                        {
+                            "path": "pages/docs/v1.2/example.mdx",
+                            "name": "example.mdx",
+                            "meta": {},
+                            "title": "it's an example",
+                            "url": "/docs/v1.2/example"
+                        },
+                        {
+                            "path": "pages/docs/v1.2/index.mdx",
+                            "name": "index.mdx",
+                            "meta": {},
+                            "title": "Getting started",
+                            "url": "/docs/v1.2/"
+                        }
+                    ],
+                    "size": null,
+                    "type": "directory"
+                },
+                {
+                    "path": "pages/docs/v1.3",
+                    "name": "v1.3",
+                    "children": [
+                        {
+                            "path": "pages/docs/v1.3/example.mdx",
+                            "name": "example.mdx",
+                            "meta": {},
+                            "title": "it's an example",
+                            "url": "/docs/v1.3/example"
+                        },
+                        {
+                            "path": "pages/docs/v1.3/index.mdx",
+                            "name": "index.mdx",
+                            "meta": {},
+                            "title": "Getting started",
+                            "url": "/docs/v1.3/"
+                        }
+                    ],
+                    "size": null,
+                    "type": "directory"
+                }
+            ],
+            "size": null,
+            "type": "directory"
+        },
+        {
+            "path": "pages/v1.0",
+            "name": "v1.0",
+            "children": [
+                {
+                    "path": "pages/v1.0/example.mdx",
+                    "name": "example.mdx",
+                    "meta": {},
+                    "title": "it's an example of v1.0",
+                    "url": "/v1.0/example"
+                },
+                {
+                    "path": "pages/v1.0/index.mdx",
+                    "name": "index.mdx",
+                    "meta": {},
+                    "title": "Getting started",
+                    "url": "/v1.0/"
+                }
+            ],
+            "size": null,
+            "type": "directory"
+        },
+        {
+            "path": "pages/v1.1",
+            "name": "v1.1",
+            "children": [
+                {
+                    "path": "pages/v1.1/example.mdx",
+                    "name": "example.mdx",
+                    "meta": {},
+                    "title": "it's an example of v1.1",
+                    "url": "/v1.1/example"
+                },
+                {
+                    "path": "pages/v1.1/index.mdx",
+                    "name": "index.mdx",
+                    "meta": {},
+                    "title": "Getting started",
+                    "url": "/v1.1/"
+                }
+            ],
+            "size": null,
+            "type": "directory"
+        },
+        {
+            "path": "pages/v1.2",
+            "name": "v1.2",
+            "children": [
+                {
+                    "path": "pages/v1.2/example.mdx",
+                    "name": "example.mdx",
+                    "meta": {},
+                    "title": "it's an example of v1.2",
+                    "url": "/v1.2/example"
+                },
+                {
+                    "path": "pages/v1.2/index.mdx",
+                    "name": "index.mdx",
+                    "meta": {},
+                    "title": "Getting started",
+                    "url": "/v1.2/"
+                }
+            ],
+            "size": null,
+            "type": "directory"
+        },
+        {
+            "path": "pages/v1.3",
+            "name": "v1.3",
+            "children": [
+                {
+                    "path": "pages/v1.3/example.mdx",
+                    "name": "example.mdx",
+                    "meta": {},
+                    "title": "it's an example of v1.3",
+                    "url": "/v1.3/example"
+                },
+                {
+                    "path": "pages/v1.3/index.mdx",
+                    "name": "index.mdx",
+                    "meta": {},
+                    "title": "Getting started",
+                    "url": "/v1.3/"
                 }
             ],
             "size": null,

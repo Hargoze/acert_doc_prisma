@@ -4,20 +4,22 @@ import { Global, css } from '@emotion/core';
 import { ThemeProvider, CSSReset, Image, Button } from '@chakra-ui/core';
 import { useRouter } from 'next/router'
 import { DokzProvider, GithubLink, ColorModeSwitch } from 'dokz'
+import Version from "../components/version"
 
 export default function App(props) {
   const { Component, pageProps } = props
   const { pathname } = useRouter()
-  if (pathname.startsWith('/docs')) {
+  var version = "v1.2"
+  if (pathname.startsWith('/v')) {
     return (
       <ThemeProvider>
-        <DokzProvider 
-        docsRootPath='pages/docs'
+        <DokzProvider
+        docsRootPath={"pages/" + version}
         headerLogo={
           <Image src="/SodaFavico64.svg" alt="acert logo" key="0"/>
         }
         headerItems={[
-          <Button variantColor="green" key='0'>Button</Button>,
+          <Version key='0' />,
           <GithubLink
               key='1'
               url='https://github.com/remorses/dokz'
