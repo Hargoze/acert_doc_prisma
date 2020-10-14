@@ -1,16 +1,11 @@
 {
-  "name": "prisma-next",
-  "description": "Static site with Next.js 9.3 and Prisma.",
+  "name": "acert_doc",
+  "description": "Documetation of acert",
   "version": "0.0.0",
-  "author": {
-    "name": "Lee Robinson",
-    "email": "me@leerob.io",
-    "url": "https://leerob.io"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leerob/prisma-next.git"
+    "url": "git+https://github.com/Hargoze/acert_doc_prisma.git"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -25,12 +20,13 @@
     "generate": "prisma generate"
   },
   "dependencies": {
-    "@chakra-ui/core": "0.8.0",
-    "@emotion/core": "10.0.28",
-    "@emotion/styled": "10.0.27",
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
     "@prisma/cli": "^2.9.0",
     "@prisma/client": "^2.9.0",
-    "emotion-theming": "10.0.27",
+    "dokz": "^1.0.79",
+    "emotion-theming": "^10.0.27",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"

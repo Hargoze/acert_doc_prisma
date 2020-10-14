@@ -2,8 +2,11 @@ import React from 'react';
 import Head from 'next/head';
 import { Global, css } from '@emotion/core';
 import { ThemeProvider, CSSReset } from '@chakra-ui/core';
+import { useRouter } from 'next/router'
+import { DokzProvider, GithubLink, ColorModeSwitch } from 'dokz'
 
-const MyApp = ({ Component, pageProps }) => {
+export default function App(props) {
+  const { Component, pageProps } = props
   return (
     <ThemeProvider>
       <Head>
@@ -12,24 +15,6 @@ const MyApp = ({ Component, pageProps }) => {
       </Head>
       <Component {...pageProps} />
       <CSSReset />
-      <Global
-        styles={css`
-          body {
-            background-color: #f7fafc;
-          }
-
-          #__next {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 16px;
-          }
-        `}
-      />
     </ThemeProvider>
-  );
-};
-
-export default MyApp;
+  )
+}
